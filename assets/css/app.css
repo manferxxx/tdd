@@ -7,22 +7,51 @@ body {
 .menu {
     position: fixed;
     width: 100%;
-    height: 50px;
-    background-color: #333;
+    height: 80px;
+    background-color: rgb(51 51 51 / 22%);
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     Top: 0;
 }
+
+.menu .menu_texto a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat-Black';
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.menu .menu_texto a:hover,
+.menu .menu_texto a:focus,
+.menu .menu_texto a.active {
+    color: yellow;
+}
+
+.menu_texto {
+    display: flex;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
 .banner {
     width: 100%;
-    height: 300px;
-    background-color: #f4f4f4;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    background-image: url(/assets/img/cofee.jpg);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .registro-form {

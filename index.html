@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="/assets/fonts/font.css">
+  <link rel="stylesheet" href="/assets/css/general.css">
   <link rel="stylesheet" href="/assets/css/app.css">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/favico/apple-icon-57x57.png">
@@ -28,17 +29,29 @@
 
 <body>
   <div class="menu">
-    <a href="#inicio">Inicio</a>
-    <a href="#sobre-nosotros">Sobre nosotros</a>
-    <a href="#servicios">Servicios</a>
-    <a href="#reseñas">Reseñas</a>
-    <a href="#contacto">Contacto</a>
-    <a href="/registro">Registro</a>
+    <div class="logo">
+      <img class="w_100" src="/assets/img/LOGO.jpg" alt="logo">
+    </div>
+    <div class="menu_texto">
+      <a class="mx_1" href="#inicio">Inicio</a>
+      <a class="mx_1" href="#sobre-nosotros">Sobre nosotros</a>
+      <a class="mx_1" href="#servicios">Servicios</a>
+      <a class="mx_1" href="#reseñas">Reseñas</a>
+      <a class="mx_1" href="#contacto">Contacto</a>
+      <a class="mx_1" href="/registro">Registro</a>
+    </div>
   </div>
 
-  <div id="inicio" class="banner">
-    <h1>Bienvenido a Epicurean Emporium</h1>
-  </div>
+  <div id="inicio" class="d-flex align-items-center banner">
+		<div class="container">
+			<div class="row justify-content-center text-center">
+				<div class="col col-md-8 contenido-banner">
+					<h1>Bienvenido a Epicurean Emporium</h1>
+					<h1 class="titulo-grande color-blanco">Valores corporativos</h1>
+				</div>
+			</div>
+		</div>
+	</div>
 
   <div id="sobre-nosotros" class="seccion">
     <h2>Sobre nosotros</h2>
