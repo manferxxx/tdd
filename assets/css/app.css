@@ -85,49 +85,47 @@ body {
     text-align: left;
     padding: 20px; 
   }
-  
+
   .flex-container {
     display: flex;
     justify-content: space-between;
     align-items: start;
   }
-  
+
   .flex-item {
     flex-grow: 1;
     margin: 0 10px; 
   }
-  
+
   .columna {
     text-align: left;
   }
-  
+
 
   .columna img {
     max-width: 500%;
     height: auto;
   }
-  
+
   .columna-mision,
   .columna-vision {
     width: 50%;
   }
-  
-  
+
+
   .Montserrat-BlackItalic {
     font-family: 'Montserrat-BlackItalic', sans-serif;
   }
-  
+
   .fw_800 {
     font-weight: 800;
   }
-  
+
   .color_black {
     color: black;
   }
 
-  
+
   .text_center {
     text-align: center;
   }
-  
-  
