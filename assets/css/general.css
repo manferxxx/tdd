@@ -26,22 +26,27 @@
     color: white;
 }
 
+
+
 .fs_1 {
-    font-size: 60px;
-}
-
-.fs_2 {
-    font-size: 30px;
-}
-
-.fs_3 {
-    font-size: 25px;
-}
-
-.fs_4 {
     font-size: 20px;
 }
 
-.fs_ {
-    font-size: 16px;
+.fs_2 {
+    font-size: 25px
+
+}.fs_3 {
+    font-size: 30px;
+}
+
+.fs_5 {
+    font-size: 40px;
+}
+
+.fs_6 {
+    font-size: 50px;
+}
+
+.fs_7 {
+    font-size: 60px;
 }
