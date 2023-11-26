@@ -2,7 +2,46 @@
     width: 100%;
 }
 
+.m_0 {
+    margin: 0;
+}
+
 .mx_1 {
     margin-left: 1rem;
     margin-right: 1rem;
+}
+.d_flex {
+    display: flex;
+}
+
+.text_center {
+    text-align: center!important;
+}
+
+.color_black {
+    color: black;
+}
+
+.color_white {
+    color: white;
+}
+
+.fs_1 {
+    font-size: 60px;
+}
+
+.fs_2 {
+    font-size: 30px;
+}
+
+.fs_3 {
+    font-size: 25px;
+}
+
+.fs_4 {
+    font-size: 20px;
+}
+
+.fs_ {
+    font-size: 16px;
 }
