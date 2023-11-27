@@ -86,6 +86,10 @@ body {
     padding: 20px; 
   }
 
+  .d_flex {
+    flex-direction: row
+}
+
   .flex-container {
     display: flex;
     justify-content: space-between;
@@ -109,6 +113,11 @@ body {
 
   .columna-mision,
   .columna-vision {
+    width: 50%;
+  }
+
+  .columna-nuestraInspiración,
+  .columna-quienesSomos {
     width: 50%;
   }
 
