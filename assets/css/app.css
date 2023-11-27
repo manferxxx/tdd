@@ -151,13 +151,20 @@ body {
   align-items: center;
   width: calc(50% - 10px);
   margin-bottom: 60px;
+  
 }
 
 .item img {
     width: 30%;
     height: auto;
     margin-bottom: 20px;
-}
+
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
 
 .item .info {
     display: flex;
@@ -175,14 +182,12 @@ body {
 }
 
 .item h2 {
-  margin-bottom: 5px; /* Ajusta el margen inferior del h2 (título) */
+  margin-bottom: 1px; /* Ajusta el margen inferior del h2 (título) */
 }
 
 .item p {
-  margin-top: 0px; /* Ajusta el margen superior del párrafo */
+  margin-top: 10px; /* Ajusta el margen superior del párrafo */
 }
 
-h1 {
-  margin-bottom: 80px; /* Ajusta el margen inferior del h1 */
-  margin-top: 20px; /* Ajusta el margen superior del h1 */
-}
+
+
