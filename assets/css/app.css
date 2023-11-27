@@ -190,4 +190,9 @@ body {
 }
 
 
+/* Ajuste de imagenes de menu*/
 
+.item img {
+  width: 200px;
+  margin-bottom: 0px;
+}
