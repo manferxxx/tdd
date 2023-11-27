@@ -146,11 +146,11 @@ body {
 }
 
 .item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: calc(50% - 10px);
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: calc(50% - 10px);
+  margin-bottom: 60px;
 }
 
 .item img {
@@ -164,6 +164,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 
 .seccion {
   text-align: center;
