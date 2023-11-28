@@ -44,7 +44,7 @@
       <a class="mx_1" href="#menu">Menu</a>
       <a class="mx_1" href="#reseñas">Reseñas</a>
       <a class="mx_1" href="#contacto">Contacto</a>
-      <a class="mx_1" href="/registro">Registro</a>
+      <a class="mx_1" href="#registro">Registro</a>
     </div>
   </div>
 
@@ -307,11 +307,54 @@
       <div id="info-contacto">
       <p class="Montserrat-Black fw_100 color_black fs_1 text_center" >¿Tienes preguntas, comentarios o sugerencias? ¡Nos encantaría escucharte! Ponte en contacto con nosotros a través de los siguientes medios y estaremos encantados de ayudarte:</p>
         <ul>
-          <li>Teléfono: [3242417672/ (605)1234567]</li>
-          <li>Correo electrónico: [EpicureanEmporium@gmail.com]</li>
-          <li>Dirección: [calle 82# 51B-37]</li>
+          <li>Teléfono: 3242417672/ (605)1234567</li>
+          <li>Correo electrónico: EpicureanEmporium@gmail.com</li>
+          <li>Dirección: calle 82# 51B-37</li>
        </ul>
       </div>
+
+      
+      
+
+
+
+        
+        <div id="Registro">
+          <div class="fondo">
+            <!-- <img class="w_100" src="/assets/img/FONDO_registro.jpg" alt="fondo"> -->
+            <h1 class="Montserrat-BlackItalic fw_800 color_black fs_6 text_center">Registro de Usuarios</h1>
+          </div>
+          <form id="registroForm" onsubmit="return validarRegistro()">
+            <label for="nombres">Nombres:</label>
+            <input type="text" id="nombres" name="nombres" required>
+          
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+          
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+          
+            <label for="confirmPassword">Confirmar Contraseña:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+          
+            <label for="genero">Género:</label>
+            <select id="genero" name="genero" required>
+              <option value="masculino">Masculino</option>
+              <option value="femenino">Femenino</option>
+              <option value="otro">Otro</option>
+            </select>
+          
+            <button type="submit">Registrarse</button>
+          </form>
+        </div>
+          
+      
+
+
+      
 
 
 
