@@ -1,0 +1,551 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat-Regular, Arial, sans-serif
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #33333338;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    Top: 0
+}
+
+.menu .menu_texto a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Montserrat-Black;
+    font-weight: 400;
+    cursor: pointer
+}
+
+.menu .menu_texto a:hover,
+.menu .menu_texto a:focus,
+.menu .menu_texto a.active {
+    color: #ff0
+}
+
+.logo {
+    width: 80px;
+    height: 80px
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/cofee-6tRFKRpY.jpg);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.registro-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0000ff0a
+}
+
+.registro-form h1 {
+    text-align: center
+}
+
+#sobre-nosotros {
+    background-image: url(img/FONDO.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px
+}
+
+.contenido-banner {
+    text-align: center;
+    color: #fff
+}
+
+.titulo-grande {
+    font-size: 30px;
+    color: #fff
+}
+
+.seccion {
+    text-align: left;
+    padding: 20px
+}
+
+.d_flex {
+    flex-direction: row
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start
+}
+
+.flex-item {
+    flex-grow: 1;
+    margin: 0 10px
+}
+
+.columna {
+    text-align: left
+}
+
+.columna img {
+    max-width: 500%;
+    height: auto
+}
+
+.columna-mision,
+.columna-vision,
+.columna-nuestraInspiración,
+.columna-quienesSomos {
+    width: 50%
+}
+
+.Montserrat-BlackItalic {
+    font-family: Montserrat-BlackItalic, sans-serif
+}
+
+.text_center {
+    text-align: center
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: calc(50% - 10px);
+    margin-bottom: 60px
+}
+
+.item img {
+    width: 30%;
+    height: auto;
+    margin: 10px 20px
+}
+
+.item .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.seccion {
+    text-align: center
+}
+
+.item img {
+    margin-bottom: 0
+}
+
+.item h2 {
+    margin-bottom: 1px
+}
+
+.item p {
+    margin-top: 10px
+}
+
+.item img {
+    width: 200px;
+    margin-bottom: 0
+}
+
+.reseñas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center
+}
+
+.reseña {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px #0000001a;
+    width: 300px
+}
+
+.foto-cliente {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+.reseña blockquote {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-left: 3px solid #ffa500
+}
+
+.reseña blockquote p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 30px 0
+}
+
+#registroForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #487aaf68;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #7300ff2a
+}
+
+#inicioSesionForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 8px;
+    box-shadow: 0 0 10px red
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px
+}
+
+button:hover {
+    background-color: #2181b1
+}
+
+.registro-link {
+    margin-top: 20px;
+    text-align: center
+}
+
+.registro-link a {
+    color: #196b00;
+    text-decoration: none;
+    font-family: Montserrat-BoldItalic, sans-serif;
+    font-weight: 700;
+    font-style: italic
+}
+
+#registroForm label {
+    display: block;
+    margin-bottom: 5px
+}
+
+#registroForm input,
+#registroForm select {
+    width: 100%;
+    margin-bottom: 10px
+}
+
+#registroForm button {
+    background-color: #5f5fba5e;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%
+}
+
+#registroForm label.nombre,
+#registroForm label.apellidos,
+#registroForm label.correo-electronico,
+#registroForm label.contraseña,
+#registroForm label.confirmar-contraseña,
+#registroForm label.género,
+#registroForm label.registrarse {
+    font-family: Montserrat-BoldItalic, sans-serif;
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(/assets/Montserrat-Black-uIvYsNr3.woff) format("ttf"), url(/assets/Montserrat-Black-uIvYsNr3.woff) format("woff"), url(/assets/Montserrat-Black-3JrlmlD4.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-BlackItalic;
+    src: url(/assets/Montserrat-BlackItalic-JgQpBraF.woff) format("ttf"), url(/assets/Montserrat-BlackItalic-JgQpBraF.woff) format("woff"), url(/assets/Montserrat-BlackItalic-_oLAWPEa.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(/assets/Montserrat-Bold-zjsSmh7H.woff) format("ttf"), url(/assets/Montserrat-Bold-zjsSmh7H.woff) format("woff"), url(/assets/Montserrat-Bold-xBrXAQA3.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-BoldItalic;
+    src: url(../fonts/Montserrat-BoldItalic) format("ttf"), url(../fonts/Montserrat-BoldItalic) format("woff"), url(../fonts/Montserrat-BoldItalic2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(../fonts/Montserrat-ExtraBold) format("ttf"), url(../fonts/Montserrat-ExtraBold) format("woff"), url(../fonts/Montserrat-ExtraBold2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBoldItalic;
+    src: url(../fonts/Montserrat-ExtraBoldItalic) format("ttf"), url(../fonts/Montserrat-ExtraBoldItalic) format("woff"), url(../fonts/Montserrat-ExtraBoldItalic2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-ExtraLight;
+    src: url(../fonts/Montserrat-ExtraLight) format("ttf"), url(../fonts/Montserrat-ExtraLight) format("woff"), url(../fonts/Montserrat-ExtraLight2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-ExtraLight;
+    src: url(../fonts/Montserrat-ExtraLight) format("ttf"), url(../fonts/Montserrat-ExtraLight) format("woff"), url(../fonts/Montserrat-ExtraLight2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-Italic;
+    src: url(../fonts/Montserrat-Italic) format("ttf"), url(../fonts/Montserrat-Italic) format("woff"), url(../fonts/Montserrat-Italic2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../fonts/Montserrat-Light) format("ttf"), url(../fonts/Montserrat-Light) format("woff"), url(../fonts/Montserrat-Light2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../fonts/Montserrat-Light) format("ttf"), url(../fonts/Montserrat-Light) format("woff"), url(../fonts/Montserrat-Light2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-LightItalic;
+    src: url(../fonts/Montserrat-LightItalic) format("ttf"), url(../fonts/Montserrat-LightItalic) format("woff"), url(../fonts/Montserrat-LightItalic2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../fonts/Montserrat-Medium) format("ttf"), url(../fonts/Montserrat-Medium) format("woff"), url(../fonts/Montserrat-Medium2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-MediumItalic;
+    src: url(../fonts/Montserrat-MediumItalic) format("ttf"), url(../fonts/Montserrat-MediumItalic) format("woff"), url(../fonts/Montserrat-MediumItalic2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat-Regular) format("ttf"), url(../fonts/Montserrat-Regular) format("woff"), url(../fonts/Montserrat-Regular2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../fonts/Montserrat-SemiBold) format("ttf"), url(../fonts/Montserrat-SemiBold) format("woff"), url(../fonts/Montserrat-SemiBold2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: " Montserrat-SemiBoldItalic";
+    src: url(../fonts/\ Montserrat-SemiBoldItalic) format("ttf"), url(../fonts/\ Montserrat-SemiBoldItalic) format("woff"), url(../fonts/\ Montserrat-SemiBoldItalic2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: " Montserrat-Thin";
+    src: url(../fonts/\ Montserrat-Thin) format("ttf"), url(../fonts/\ Montserrat-Thin) format("woff"), url(../fonts/\ Montserrat-Thin2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: " Montserrat-ThinItalic";
+    src: url(../fonts/\ Montserrat-ThinItalic) format("ttf"), url(../fonts/\ Montserrat-ThinItalic) format("woff"), url(../fonts/\ Montserrat-ThinItalic2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+.fw_100 {
+    font-weight: 100
+}
+
+.fw_200 {
+    font-weight: 200
+}
+
+.fw_300 {
+    font-weight: 300
+}
+
+.fw_400 {
+    font-weight: 400
+}
+
+.fw_500 {
+    font-weight: 500
+}
+
+.fw_600 {
+    font-weight: 600
+}
+
+.fw_700 {
+    font-weight: 700
+}
+
+.fw_800 {
+    font-weight: 800
+}
+
+.fw_900 {
+    font-weight: 900
+}
+
+.fw_bold {
+    font-weight: 700
+}
+
+.fw_bolder {
+    font-weight: bolder
+}
+
+.w_100 {
+    width: 100%
+}
+
+.m_0 {
+    margin: 0
+}
+
+.mx_1 {
+    margin-left: 1rem;
+    margin-right: 1rem
+}
+
+.d_flex {
+    display: flex
+}
+
+.text_center {
+    text-align: center !important
+}
+
+.color_black {
+    color: #000
+}
+
+.color_white {
+    color: #fff
+}
+
+.fs_1 {
+    font-size: 20px
+}
+
+.fs_2 {
+    font-size: 25px
+}
+
+.fs_3 {
+    font-size: 30px
+}
+
+.fs_5 {
+    font-size: 40px
+}
+
+.fs_6 {
+    font-size: 50px
+}
+
+.fs_7 {
+    font-size: 60px
+}
