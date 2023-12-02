@@ -42,7 +42,7 @@ body {
     justify-content: center;
     align-items: center;
     /* margin-top: 50px; */
-    background-image: url(/assets/img/cofee.jpg);
+    background-image: url("/assets/img/cofee.jpg");
     background-size: 100%;
     background-position: top;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.041);
 }
 .registro-form h1 {
     text-align: center;
@@ -240,44 +240,383 @@ body {
 
  /* Estilos para el formulario de registro */
  #registroForm {
-  max-width: 400px; 
-  margin: 0 auto; /* Centra el formulario horizontalmente en la página */
-  background-image: url('assets\img\FONDO_registro.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  max-width: 400px;
+  margin: 0 auto;
   padding: 20px;
-  border-radius: 10px; /* Bordes redondeados */
+  background-color: rgba(72, 122, 175, 0.409);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(115, 0, 255, 0.166);
 }
+/* Estilos para el formulario de inicio de sesión */
+#inicioSesionForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:beige;
+  border-radius: 8px;
+  box-shadow: 0 0 10px red ;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2181b1;
+}
+
+
+
 
 /* Resto de estilos... */
 
+.registro-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.registro-link a {
+  color: #196b00;
+  text-decoration: none;
+  font-family: 'Montserrat-BoldItalic', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
 
 #registroForm label {
   display: block; /* Muestra las etiquetas en una línea nueva */
-  margin-bottom: 5px; /* Agrega un pequeño espacio entre las etiquetas y los campos de entrada */
+  margin-bottom: 5px; 
 }
 
 #registroForm input,
 #registroForm select {
   width: 100%; 
-  margin-bottom: 10px; /* Agrega un espacio entre los campos de entrada y selección */
+  margin-bottom: 10px;  
 }
 
 #registroForm button {
-  background-color: rgba(97, 97, 186, 0.369); 
+  background-color: rgba(95, 95, 186, 0.369); 
   color: white; 
   padding: 10px; /* Espaciado interno del botón */
   border: none; /* Elimina el borde del botón */
   cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
   width: 100%; /* Hace que el botón ocupe el ancho completo del contenedor */
 }
+#registroForm label.nombre,
+#registroForm label.apellidos,
+#registroForm label.correo-electronico,
+#registroForm label.contraseña,
+#registroForm label.confirmar-contraseña,
+#registroForm label.género,
+#registroForm label.registrarse {
+  font-family: 'Montserrat-BoldItalic', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+} 
 
-#registroForm button:hover {
-  background-color: gainsboro; /* Cambia el color de fondo al pasar sobre el botón */
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url('../fonts/Montserrat-Black.woff') format('ttf'),
+      url('../fonts/Montserrat-Black.woff') format('woff'),
+      url('../fonts/Montserrat-Black.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat-BlackItalic';
+  src: url('../fonts/Montserrat-BlackItalic.woff') format('ttf'),
+      url('../fonts/Montserrat-BlackItalic.woff') format('woff'),
+      url('../fonts/Montserrat-BlackItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.woff') format('ttf'),
+      url('../fonts/Montserrat-Bold.woff') format('woff'),
+      url('../fonts/Montserrat-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat-BoldItalic';
+  src: url('../fonts/Montserrat-BoldItalic') format('ttf'),
+      url('../fonts/Montserrat-BoldItalic') format('woff'),
+      url('../fonts/Montserrat-BoldItalic2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+  src: url('../fonts/Montserrat-ExtraBold') format('ttf'),
+      url('../fonts/Montserrat-ExtraBold') format('woff'),
+      url('../fonts/Montserrat-ExtraBold2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraBoldItalic';
+  src: url('../fonts/Montserrat-ExtraBoldItalic') format('ttf'),
+      url('../fonts/Montserrat-ExtraBoldItalic') format('woff'),
+      url('../fonts/Montserrat-ExtraBoldItalic2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraLight';
+  src: url('../fonts/Montserrat-ExtraLight') format('ttf'),
+      url('../fonts/Montserrat-ExtraLight') format('woff'),
+      url('../fonts/Montserrat-ExtraLight2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraLight';
+  src: url('../fonts/Montserrat-ExtraLight') format('ttf'),
+      url('../fonts/Montserrat-ExtraLight') format('woff'),
+      url('../fonts/Montserrat-ExtraLight2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat-Italic';
+  src: url('../fonts/Montserrat-Italic') format('ttf'),
+      url('../fonts/Montserrat-Italic') format('woff'),
+      url('../fonts/Montserrat-Italic2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light') format('ttf'),
+      url('../fonts/Montserrat-Light') format('woff'),
+      url('../fonts/Montserrat-Light2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Montserrat-Light' ;
+  src: url('../fonts/Montserrat-Light') format('ttf'),
+      url('../fonts/Montserrat-Light') format('woff'),
+      url('../fonts/Montserrat-Light2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Montserrat-LightItalic';
+  src: url('../fonts/Montserrat-LightItalic') format('ttf'),
+      url('../fonts/Montserrat-LightItalic') format('woff'),
+      url('../fonts/Montserrat-LightItalic2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('../fonts/Montserrat-Medium') format('ttf'),
+      url('../fonts/Montserrat-Medium') format('woff'),
+      url('../fonts/Montserrat-Medium2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Montserrat-MediumItalic';
+  src: url('../fonts/Montserrat-MediumItalic') format('ttf'),
+      url('../fonts/Montserrat-MediumItalic') format('woff'),
+      url('../fonts/Montserrat-MediumItalic2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular') format('ttf'),
+      url('../fonts/Montserrat-Regular') format('woff'),
+      url('../fonts/Montserrat-Regular2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('../fonts/Montserrat-SemiBold') format('ttf'),
+      url('../fonts/Montserrat-SemiBold') format('woff'),
+      url('../fonts/Montserrat-SemiBold2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: ' Montserrat-SemiBoldItalic';
+  src: url('../fonts/ Montserrat-SemiBoldItalic') format('ttf'),
+      url('../fonts/ Montserrat-SemiBoldItalic') format('woff'),
+      url('../fonts/ Montserrat-SemiBoldItalic2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;  
+}
+
+@font-face {
+  font-family: ' Montserrat-Thin';
+  src: url('../fonts/ Montserrat-Thin') format('ttf'),
+      url('../fonts/ Montserrat-Thin') format('woff'),
+      url('../fonts/ Montserrat-Thin2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;  
+}
+
+@font-face {
+  font-family: ' Montserrat-ThinItalic';
+  src: url('../fonts/ Montserrat-ThinItalic') format('ttf'),
+      url('../fonts/ Montserrat-ThinItalic') format('woff'),
+      url('../fonts/ Montserrat-ThinItalic2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;  
+}
+
+.fw_100 {
+  font-weight: 100;
+}
+
+.fw_200 {
+  font-weight: 200;
+}
+
+.fw_300 {
+  font-weight: 300;
+}
+
+.fw_400 {
+  font-weight: 400;
+}
+
+.fw_500 {
+  font-weight: 500;
+}
+
+.fw_600 {
+  font-weight: 600;
+}
+
+.fw_700 {
+  font-weight: 700;
+}
+
+.fw_800 {
+  font-weight: 800;
+}
+
+.fw_900 {
+  font-weight: 900;
+}
+
+.fw_bold {
+  font-weight: bold;
+}
+
+.fw_bolder {
+  font-weight: bolder;
+}
+
+.w_100 {
+  width: 100%;
+}
+
+.m_0 {
+  margin: 0;
+}
+
+.mx_1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.d_flex {
+  display: flex;
+}
+
+.text_center {
+  text-align: center!important;
+}
+
+.color_black {
+  color: black;
+}
+
+.color_white {
+  color: white;
 }
 
 
- 
+.fs_1 {
+  font-size: 20px;
+}
 
- 
+.fs_2 {
+  font-size: 25px
+
+}.fs_3 {
+  font-size: 30px;
+}
+
+.fs_5 {
+  font-size: 40px;
+}
+
+.fs_6 {
+  font-size: 50px;
+}
+
+.fs_7 {
+  font-size: 60px;
+}

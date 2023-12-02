@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/assets/fonts/font.css">
+  <link rel="stylesheet" href="/assets/css/general.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <link rel="stylesheet" href="/assets/css/estilos-adicionales.css"> <!-- Agrega esta línea -->
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favico/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="120x120" ref="/assets/favico/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" ref="/assets/favico/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" ref="/assets/favico/apple-icon-152x152.png">
+  <link rel="icon" type="image/png" sizes="192x192" ref="/assets/favico/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" ref="/assets/favico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" ref="/assets/favico/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" ref="/assets/favico/favicon-16x16.png">
+  <link rel="manifest" ref="/assets/favico/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/favico/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" type="image/x-icon" href="/assets/favico/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,700;0,800;1,100;1,400;1,500;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <title>Registro de Usuarios - Epicurean Emporium </title>
+</head>
+
+<body>
+  <div class="registro-form">
+    <h1 class="display-4 fs-2 m-0">Registro de Usuarios</h1>
+
+    <div id="Registro">
+      <div class="fondo"></div>
+    </div>
+    <form id="registroForm" onsubmit="return validarRegistro()">
+      <label for="nombres" class="nombre">Nombres:</label>
+      <input type="text" placeholder="Ingrese su nombre" id="nombres" name="nombres" required autofocus>
+
+      <label for="apellidos" class="apellidos">Apellidos:</label>
+      <input type="text" placeholder="Ingrese su apellido" id="apellidos" name="apellidos" required>
+
+      <label for="email" class="correo-electronico">Correo electrónico:</label>
+      <input type="email" placeholder="Ingrese su E-mail" id="email" name="email" required>
+
+      <label for="password" class="contraseña">Contraseña:</label>
+      <input type="password" placeholder="Escribe contraseña" id="password" name="password" required>
+
+      <label for="confirmPassword" class="confirmar-contraseña">Confirmar Contraseña:</label>
+      <input type="password" placeholder="Confirme la contraseña" id="confirmPassword" name="confirmPassword" required>
+
+      <label for="genero" class="género">Género:</label>
+      <select id="genero" name="genero" required>
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+        <option value="otro">Otro</option>
+      </select>
+
+      <button type="submit" class="registrarse">Registrarse</button>
+    </form>
+  </div>
+
+  
+  <script type="module" src="/assets/js/registro.js"></script>
+</body>
+
+</html>

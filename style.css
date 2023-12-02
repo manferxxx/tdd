@@ -95,3 +95,9 @@ button:focus-visible {
   }
 
 }
+
+#registroForm label.nombre {
+  font-family: 'Montserrat-BoldItalic', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
