@@ -42,7 +42,7 @@ body {
     justify-content: center;
     align-items: center;
     /* margin-top: 50px; */
-    background-image: url("./assets/img/cofee.jpg");
+    background-image: url("../img/cofee.jpg");
     background-size: 100%;
     background-position: top;
     background-repeat: no-repeat;
